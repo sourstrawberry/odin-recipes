@@ -1,0 +1,33 @@
+* {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    font-size: 22px;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.linespace {
+    display:block;
+    height: 11px;
+    width: auto;
+}
+
+.recipe {
+    display:block;
+    width: 60%;
+}
+
+.ingredients p {
+    margin:0;
+}
+
+.drinkdrawing {
+    height: auto;
+    width: 250px;
+}
