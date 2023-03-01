@@ -5,11 +5,13 @@
 }
 
 .title {
-    font-size: 22px;
+    font-size: 18px;
+    color: black;
 }
 
 .text {
     font-size: 18px;
+    color: darkolivegreen;
 }
 
 .linespace {
@@ -30,4 +32,21 @@
 .drinkdrawing {
     height: auto;
     width: 250px;
+}
+
+a {
+    text-decoration: none;
+    color: darkolivegreen;
+}
+
+a:hover::before {
+    content: "♥ ";
+}
+
+a:active::before {
+    content: "♥ ";
+}
+
+a:active {
+    font-style: bold;
 }
